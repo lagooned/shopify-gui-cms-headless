@@ -1,7 +1,8 @@
 import React from 'react';
+import type { Product } from 'shopify-buy';
 
 type ShopProviderValue = {
-  products: Array<any>;
+  products: Array<Product>;
 };
 
 const InitialState: ShopProviderValue = { products: [] };
